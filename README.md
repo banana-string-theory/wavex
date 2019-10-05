@@ -1,4 +1,4 @@
-An extension of cpython's [wave.py](https://github.com/python/cpython/blob/master/Lib/wave.py) submodule supporting CCITT G.711 ulaw, alaw. Essentially a port of Eric Woudenberg's [wave.py patch submission for python 2](https://bugs.python.org/issue1483545)([https://bugs.python.org/file36465/wave.py](file)), except here the original 'NONE' compression type is retained (is not renamed 'PCM' as in Eric's patch).
+An extension of cpython's [wave.py](https://github.com/python/cpython/blob/master/Lib/wave.py) submodule supporting CCITT G.711 ulaw, alaw. Essentially a port of Eric Woudenberg's [wave.py patch submission for python 2](https://bugs.python.org/issue1483545)[file](https://bugs.python.org/file36465/wave.py)), except here the original 'NONE' compression type is retained (is not renamed 'PCM' as in Eric's patch).
 
 Diff:
 ```
